@@ -1,3 +1,15 @@
+# Infinity in Deep Learning 深度学习“无限”精彩
+
+* ### [Infinite Width: Neural Networks as Gaussian Process and Neural Tangent Kernel (NTK)](https://github.com/roboticcam/machine-learning-notes/blob/master/files/gp_nn.pdf) ###
+
+Detailed derivation of neural networks as (1) Gaussian Process using central Limit theorem (2) Neural Tangent Kernel (NTK)
+(1) 使用中心极限定理详细推导神经网络作为高斯过程 (2) 神经正切核 Neural Tangent Kernel (NTK)
+
+* ### [Infinite Depth: NeuralODE and Adjoint Equation](https://github.com/roboticcam/machine-learning-notes/blob/master/files/neuralODE_Adjoint.pdf) ###
+
+Discuss Neural ODE and in particular the use of adjoint equation in Parameter training
+讨论神经ODE，尤其是在参数训练中使用伴随方程
+
 # Sinovasinovation DeeCamp 创新工场DeeCAMP讲义
 
 * ### [DeeCamp 2019：Story of Softmax](https://github.com/roboticcam/machine-learning-notes/blob/master/files/deecamp_2019.pdf) ###
@@ -14,7 +26,7 @@ Expectation-Maximization & Matrix Capsule Networks; Determinantal Point Process 
 
 * I recorded about 20% of these notes in videos in 2015 in Mandarin (all my notes and writings are in English) You may find them on [Youtube](https://www.youtube.com/channel/UConITmGn5PFr0hxTI2tWD4Q) and [bilibili](https://space.bilibili.com/327617676) and [Youku](http://i.youku.com/i/UMzIzNDgxNTg5Ng)       
 
-我在2015年用中文录制了这些课件中约20％的内容 (我目前的课件都是英文的)大家可以在[Youtube](https://www.youtube.com/channel/UConITmGn5PFr0hxTI2tWD4Q) [哔哩哔哩](https://space.bilibili.com/327617676) and [优酷](http://i.youku.com/i/UMzIzNDgxNTg5Ng) 下载
+我在2015年用中文录制了这些课件中约10％的内容 (我目前的课件都是英文的)大家可以在[Youtube](https://www.youtube.com/channel/UConITmGn5PFr0hxTI2tWD4Q) [哔哩哔哩](https://space.bilibili.com/327617676) and [优酷](http://i.youku.com/i/UMzIzNDgxNTg5Ng) 下载
 
 # 3D Geometry Computer vision 3D几何计算机视觉 
 
@@ -189,6 +201,11 @@ Hierarchical DP, HDP-HMM, Indian Buffet Process (IBP)
 Levy-Khintchine representation, Compound Poisson Process, Gamma Process, Negative Binomial Process
 
 Levy-Khintchine表示，复合Poisson过程，Gamma过程，负二项过程
+
+* ### [Sample correlated integers from HDP and Copula](https://github.com/roboticcam/machine-learning-notes/blob/master/files/copula_dp.pdf) ###
+This is an alternative explanation to our [IJCAI 2016 papers](https://www.ijcai.org/Proceedings/16/Papers/210.pdf). The derivations are different from the paper, but portraits the same story.
+
+这是对我的[IJCAI2016论文](https://www.ijcai.org/Proceedings/16/Papers/210.pdf) 的一个不同解释。虽然写的方法公式推导不同，但描绘的是同一事情
 
 * ### [Determinantal Point Process](https://github.com/roboticcam/machine-learning-notes/blob/master/files/dpp.pdf) ###
 explain the details of DPP’s marginal distribution, L-ensemble, its sampling strategy, our work in time-varying DPP
